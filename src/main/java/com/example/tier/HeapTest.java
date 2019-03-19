@@ -9,7 +9,7 @@ import org.ehcache.config.builders.ResourcePoolsBuilder;
 
 /**
  * Created by IntelliJ IDEA.
- *
+ *  缓存数据存储在heap中，这个依据堆内存的大小而定
  * @author: wuxinxin
  * @date: 2019/3/19
  */

@@ -37,7 +37,7 @@ public class OffHeapTest {
         cache1.put("name","wxx");
 
 
-        //获取,
+        //获取
         System.out.println(cache1.get("name"));
 
         cacheManager.close();

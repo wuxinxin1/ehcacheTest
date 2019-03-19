@@ -21,7 +21,6 @@ public class HeapTest {
         //创建配置构建器，使用配置构建器去创建一个Cache,设置存储键值对的数量为2，超过了的将开始移除多余的
         CacheConfiguration<String, String> cacheConfiguration = CacheConfigurationBuilder.
                 newCacheConfigurationBuilder(String.class, String.class, ResourcePoolsBuilder.heap(2)).build();
-
         cacheManager.createCache("cache1", cacheConfiguration);
 
         //使用cache
